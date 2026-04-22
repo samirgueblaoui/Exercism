@@ -1,7 +1,9 @@
 #pragma once
+#include <vector>
+#include <algorithm>
 
 namespace sum_of_multiples {
 
-// TODO: add your solution here
+int to(std::vector<int> v, int level);
 
 }  // namespace sum_of_multiples
